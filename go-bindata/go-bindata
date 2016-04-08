@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-docker run -v $(pwd):/home hazbo/go-bindata
+docker run -v $(pwd):/home hazbo/go-bindata "$@"
 

@@ -16,5 +16,5 @@ RUN go get -u github.com/jteeuwen/go-bindata/...
 
 WORKDIR /home
 
-CMD [ "go-bindata" ]
+ENTRYPOINT [ "go-bindata" ]
 

@@ -13,5 +13,5 @@ RUN apk update && apk add \
 
 WORKDIR /home
 
-CMD [ "tree" ]
+ENTRYPOINT [ "tree" ]
 
